@@ -1,0 +1,85 @@
+
+.grid{
+    
+     display: grid;
+     grid-template-columns: 1fr 1 fr 1fr;
+     /* grid-template-rows: 1fr 1fr 1fr; */
+    gap: 10px;
+
+}
+.item1{
+     background-color: darkgoldenrod;
+     padding: 10px;
+     text-align: center;
+     color: blue;
+}
+
+
+.item2{
+     
+     display: flex;
+    background-color: darkgoldenrod;
+     margin-top: 10px;
+     border: 5px solid black;
+      height: 490px;
+   gap: 20px;
+   
+}
+
+.box1{
+    width: 150px;
+    height: 210px;
+    border: 5px solid black;
+    font-weight: lighter;
+    font-size: 50px ;
+    color: blueviolet;
+    align-items: center;
+    margin-bottom: 50px;
+    right: 40px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    clear: left;
+}
+
+
+.box2{
+     width: 150px;
+     height: 210px;
+     border: 5px solid black;
+     font-weight: lighter;
+     font-size: 20px ;
+     color: blueviolet;
+     align-items: center;
+     margin-bottom: 50px;
+     left: 20px;
+     margin: 20px;
+     padding: 20px; 
+     float: right;
+     clear: right;
+     background-image: url(./pnda.jpg)
+
+}
+.item3{
+
+    background-color: darkgoldenrod;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+   
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+  
